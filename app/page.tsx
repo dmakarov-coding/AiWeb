@@ -61,12 +61,10 @@ async function getData() {
 }
 
 const stats = [
-    { value: '24/7 Availability', name: 'Our AI Voice Assistant never sleeps, ensuring your customers receive support any time, day or night.' },
-    { value: 'Human-like Interaction', name: 'Advanced natural language processing allows for realistic and engaging conversations.' },
-    { value: 'Efficient Call Handling', name: 'Handles multiple calls simultaneously, reducing wait times and improving satisfaction.' },
-    { value: 'Cost-effective Solution', name: 'Reduce overhead costs associated with hiring and training human receptionists.' },
-    { value: 'Customizable Responses', name: 'Tailor the AI responses to match your desired unique voice and needs.' },
-    { value: 'Call Transferring', name: 'Easily transfer calls to the appropriate department or individual.' },
+    { value: '24/7 Availability', name: 'AI Voice Assistant never sleeps, ensuring your customers receive support any time, day or night.' },
+    { value: 'Human-like Interaction', name: 'Advanced natural language processing allows for realistic and engaging conversations.' },    
+    { value: 'Cost-effective Solution', name: 'Reduce overhead costs associated with hiring and training people.' },
+    { value: 'Customizable responses', name: 'Tailor the AI responses to match your desired unique voice and needs.' },   
 ];
 
 
@@ -169,11 +167,11 @@ export default async function Home() {
                   <div className="relative md:mt-24 mx-auto w-full max-w-4xl pt-4 pb-44 text-center">
                       <div className="justify-center hidden md:flex">
                       </div>
-                      <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight">The First Conversational <span className="text-blue-700">AI Voice Assistant</span></h1>
+                      <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight"><span className="text-blue-700">AI Voice Assistant</span></h1>
                       <h3 className="md:text-2xl">No more missed calls!</h3>
                       <br />
                       <h2 className="md:text-2xl">
-                      Your first virtual receptionist that knows everything you give it inside and out, ready to answer questions 24/7 
+                      Your AI Voice Assistant that knows everything you give it inside and out, ready to answer questions 24/7 
                       </h2>
                       <div
                           className="absolute top-0 -z-10 max-h-full max-w-screen-lg w-full h-full blur-2xl">
@@ -269,14 +267,15 @@ export default async function Home() {
                     </div>
                 </div>
           </section>
-          <p className="text-center p-4 text-lg mb-4">Call <strong>+1 (343) 307-4471</strong> to talk to your virtual assistant.</p>
+     
+          <p className="text-center p-4 text-lg mb-4">Call <strong>+1 (437)529-4515</strong> to talk to your virtual assistant.</p>
           <div className="flex justify-center">
           
             <Card className="w-3/4 p-2 dark:bg-gray-800 shadow-lg rounded-lg bg-white">
               <div className="w-full">
                 {/* Form stuff */}
                 <form action={handleFormSubmitSaveData}>
-                  <h2 className="text-2xl font-bold mb-1">The Receptionist&apos;s Prompt</h2>
+                  <h2 className="text-2xl font-bold mb-1">AI Voice Assistant&apos;s Prompt</h2>
                   <div className="grid gap-1.5">
                     <Textarea
                       name="promptInfo"
